@@ -17,6 +17,9 @@ def prompt_builder(products: list, level: str) -> str:
 
 דרישות:
 - המתכון חייב להיות ברור מאוד, מפורט צעד אחר צעד.
+-המתכון יהיה כתוב לא יותר מ-20 מילים בשורה
+-בתחילה יהיה כתוב באופן מפורש מה המתכון
+-לא לשלב במתכון מילים או נושאים שנטפרי עלול לחסום
 - להסביר כל שלב בפשטות, כאילו למתחילים.
 - להוסיף דוגמאות והסברים נוספים כשצריך.
 - להשתמש באימוג'ים כדי להפוך את ההסבר לקליל ומהנה 😊🍳
@@ -38,6 +41,9 @@ def prompt_builder(products: list, level: str) -> str:
 {products_text}
 
 דרישות:
+-המתכון יהיה כתוב לא יותר מ-20 מילים בשורה
+-בתחילה יהיה כתוב באופן מפורש מה המתכון
+-לא לשלב במתכון מילים או נושאים שנטפרי עלול לחסום
 - כתיבה מובנית מאוד: כותרת, מצרכים, שלבי הכנה, טיפים.
 - לא להשתמש בשפה ילדותית.
 - להסביר בצורה ברורה אך תמציתית.
@@ -60,6 +66,9 @@ def prompt_builder(products: list, level: str) -> str:
 {products_text}
 
 דרישות:
+-המתכון יהיה כתוב לא יותר מ-20 מילים בשורה
+-בתחילה יהיה כתוב באופן מפורש מה המתכון
+-לא לשלב במתכון מילים או נושאים שנטפרי עלול לחסום
 - כתיבה בוגרת, מעניינת ומקצועית.
 - לשלב טכניקות בישול והסברים מעמיקים.
 - להסביר את ההיגיון מאחורי שילובי הטעמים.

@@ -294,3 +294,305 @@
 2026-02-19 20:10:31,820 - INFO - AFC is enabled with max remote calls: 10.
 2026-02-19 20:10:49,839 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 418 Blocked by NetFree"
 2026-02-19 20:10:49,840 - ERROR - Error while sending request: 418 None. {'blockByNetFree': True, 'blockUrl': 'https://netfree.link/block/#%7B%22block%22%3A%22badwords%22%2C%22sourceStatusCode%22%3A200%2C%22blockTechnicalInfo%22%3A%22Q1JZUFQyBrGQGVHBkzYZLVnEHzVLF9%2FjYElTMOwOfI6iO%2F7NzkiTLtVtXFUALB2ORbLi8r8V4ETS%2BGPbPaf5oAsD7xNcysZE0Rn42olE0TEVvIQ%2FJaYkiUoRZDXbN6tY9YzbRt5gN4Br8pR3ke6IrZa0Bce6axNOlT5Iq5JDwb8eGBLKfjfdkEKaGHsX5PvRJv3%2FiL6gvzgteByWl2DJekGviQLihTAdXxXsZmYaM26fgNzXXEH0X4gEyUhCsp84FYFLtURXaXx4kNeP2CIfmNszuNrgv1pB5bHw2kuE1Dvts41FdiciRiOgpSQq33WVGtdnNZoamtzwOXEo2111o3nPliPKqY8D7aZqfpctKHH4%2FtOczFucgh59jbkYJ0RZACLF6xDEaG%2B0wwANxlFuM73qS47TkBATc%2BKoV5Q9Cgh7goeIP5MuSIQDsWVX%2FIv7o3EnrK3mhCM03stcidGjrMx0UAFFcQgx%2BNzCpyE2uuiUGqYwKtjf%2Bm6i9fURfGBfvJ5MfArY%2FYXL8m3nvjrPwP%2FQYQ%2FM163kIzg8wsGR7Tr%2Bgj4LazuO0CqcK7%2BnxF%2Fw0a0qvEvakta9XoeOhTjthWcEv5LL%2F5HN5qKOrdiJxW2xnzvjLnHHWQ31PmdzmIKIX%2B1WSqnzmX3ReFlsVcM9ulQj7k5UrY70XXffTn8Cneb7RmkKMvxkQhRjbRu58p7yQuHsmchCpvcZK7HgZJtBkVmL0qKVYB57gV5MCjC4LQol9l6MBXu9HCfwIH%2FCnfa%2FAkgb%2FbaNd4jzmv546zKIP8BaeqsxmfU8ErS1uqpOm29QdibegXAq4n9aDrtVpvKtwW%2FQcnrdnV%2FDcohyjZtM9%2BTJ20nmuPmp0JnwRvAQ0noOdNVy%2BMVJzExtrGbUcucwM%2Bkw426f5%2Fkj9M2vMZxKPaeIqczytdM88ePBpw%2BVou%2Ft37npiOujRoM0dgb%2B5IN7KkMuT8m75bsuvOqeT9pOk9vdpTgyDAezxuBng3Dh9uPQqYURh8wVoN4s4S4UHnv%2FSI%2Fkp6EsviPfNKvw%2FJxJ5d8%2FOzHQMAxVc9KbuoLmR%2BB0wX9960eybDtRkKHJtvy3peD%2B47rzNwPNKFOP3v0QSwVqRlKzCrdNHTDnRr9yJvTy7ga3Zd0vqoDqhBCAaCZuAh07bg34Hq2RHCxCokZDcrRWtLh8QWunMhYAz%2FAmvzzBCUul3iL9cKjYbKn3aJYJdCP%2BVVeRfRqRMr2%2F6quUsvW1kKB%2BaotXX0oosTjuPrIOczv7zfkHu1KKj3n33pBCfOtVhAJFf1CZMjQDkQXVu95O2ekGGnW3i0%2BsU1nGVesUVgirN%2FN%2F67KISR6a0inlv1DXv9DseY7VkrFfKqFPs0wHuGsWOmkY0L6jPjE2Rt22tOqgco8WMQAZ%2FVlkGXGt4w0S14b18eQvRblJ8R2YcYgbj9Ult1C4MKP5BEScyeWMgnG6aM2ceA01pvjsW7kQI2rhZw04mtS9dL9anreC6bZp4vSZ%2FDJs0TSHN9%2Ba%2BvzFliDI2ceR8QwrKbYTV4x%2FP4qA%2Bf41lsVY6d4zGpjqUtgUoqRrB%2FGrkLtoOY6o7dbGRkHLUqDMhth52ShdUMV9Ha0cZPcR5NFCOqCkJRl70X%2B4%2BFSqjrJtrC%2BhORLuGKP%2BkzGVBFu%2FcV3icOn8CRnlfJj4boFh4ftLCpkoq8wTtUHKJTIZwy%2FWA08PWL96PiWTqt%2FElS5%2FqQhQMrihhrIN6AHnfMDzqVsCsKi4O0uIzZ9YRfIniZheTnJo4cuifpbfSYLb83zZKN3MJjGcQgRh9lyw3CBy7ZxzOsxm7DWRzEwlFDm%2BhsHdmgakjue0ACRuHqq%2FJge2CCdI1ZJ0BPg8LipcQq%2ByHZIneGFRs0a2UhtZynOiPs0%2BbV88EcgzcLqLhNYf8VqFRi4ytdNkhaJW0GL5pw7Kf7krs2xFNxMKNxylMBbEOrXZmm9OezVcYH0KEPTA3%2F9wjnye8%2BMAtmRK7p31PlR6RtCdCHj7wA0jYyDE2rCKx6B2mhlPsBUA1ZLmwXzvvBgZl%2F0k9oRn0N3vSHfClE%2Beii28blGyM1agCYTBJI1iQnI9D5dvcyYUHzmZudDCkUDT9PLG0y5xTSI2vMAKkeqMkmHHsVSbY9I0vO8fJuzwhrioIcbuOrEnm9oouipAPpM92qhdnvF2aZSLQ0TDzVRENhiJnf%2BUapS2yQehEeHwKmLi94KLGtKpa%2BV0eLwsVFEU80Flcr6Ewwd3NSe3NzV8VypsOiKnMIqPPnX25lmgYLA4m%2FjtjkxY366qlqtpXKoK47f2s4Rq3Lx2SJxjjl2G990aBwACSI2aerT6pj9UHniq5wzKU0xxf6hyYRWGbf6mqCsWaqlZd38H47Kx389w98DnpyiFiv26%2Ba%2Fdc7FieGCQ04GjYENxgvjc65ufK2SWe78x98XNRsxlzv76iwnFF1mL2HtaGuiu0I983uCbiUAL0DR9jUE8y5oaJw0kCSa0VZK%2FV3UGoG1WMcRoaLOkVvocKZvPrwyRcritE5vBMpAy8r8QNwDwQT6R3pxV%2FknVrTJjGpj%2BfkATv0Ay583llGO6Ntz4eI0UErMprtrxyxyEbkrSckNFhBnmKRAUFSnBDCgXYLzGYp87NSDlH5h46%2BOTIwQHnkf5tcH5xTwJ9Kcox86E%2FSdG7MQEZw77bNVKKmzZGZF5hS90frI8xIMdm2GYqSJmBnftgaOr2R6g7i8PB2M3EpH0bGCnGutiKCmuTrDpOE765QW1VwM7VDo6lCgxzupSyll6JMF5reXPRUrN1e8ZaV%2BKsbJiWNi%2FBFmiOPS5epWHda6jBsXPn4NpbiKLAcg69rNqsfSsguHKqQuOrUf3J55zBGcFcvGzdxeB%2BV54uf1QLxzNRd2u2m5yNrVzGu1B4z7ZCdn1ISEIuVjJqmYDXsP5H4QhFJTTJflCpqnLCBRup%2Br9zgeE8XyOFCCcAWc%2B%2FNmOU8Tvp4ZTnc9QCRWUvDZLvmBjBYeRxaqXPETZRvG88IQez8WPu0QFAsXe%2Fj7XI9SabLersG%2B97QXZY9bS1IO3XT7xFRgcPPqcWsVX5pOr12bAiu0Uyej2kcpzsT%2F5%2BYbEfLccrmP9usPyXfDWitngP6fGHKm8HAMmRrA1lWMTqEox6%2FfamredCDIOJnLF8I4CAKczT8%2FaxncJaylKzTFTSnqcw%2BP2TbXtQFkJ3OzeZ%2Bths%2B5qLADVbSRWAjqjdoKCH4vYX006tzYGL57xGFXnWe3EfLVxM1Cyk7vUFzV4TxPi%2FC8hCjtJuLPy307i1Q1xYAuwmD9ozHV4k49cjOpTNHoxHPzr%2FgUdR4KGDE1fu4j9u3ZKwQDm8C3vsYB31fgtUmie2RfiOlqEBPH%2Bbw3Zf3gBR3zfJq0z5Ax7psgNmrU0ciugw4GnxxsMPjjXIJ4oh%2BTp5EpYIzj%2Ft2bKwcib3to1bYrnL7TwYpW6E2YCcR%2FWkD2HgjAuxBZk7WHc6Iau4s%2BcqXi1WOga8GPKS3wt%2F%2BU%2FNx%2BPClgj7O4rk%2FkWYqlUp5BIxJL8uvoTkpUyss8IVqFwUlAauVAxrldeT1Qm1vI0d58YSIrSDjF%2F8%2FVZEr4vpafELnXZ4fSbie7aoSrZMz8XQg0D4Ocg4kSf9RVDCUgunIdtMtoG72%2Bqz5dCX7BNl63v4GGtmHTt082uhPZDG5zuFwnRKZO1fQ5EdaAvXhQOqwiBaT%2FbySPN7AYveTOPv8ugTvDY%2BSiapdp6mgJQv0IxFBuIHYmxAgACae3K0OMO8A8cwITTAgpcS%2BdNXPfvGMJlIA%2BlSKX52UP0qeynwFSm9%2FNXiJuSr4Xa2D5DJSU8aqlfOwwjsAn7qGLLYDRiHuilPYSVYnqJh7TugY%2FKO70tAwIdMmPQ79N6NfP6Q%2FDHVCXAQ3R%2BQbbCHn3kHuXJ3H1htv%2FwtKy1L5yJll7v6SlLsMBthZO3mwiQ%22%7D'}
+2026-02-19 20:15:23,848 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 20:15:41,875 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-19 20:15:41,887 - INFO - Request sent successfully to Gemini.
+2026-02-19 20:15:41,887 - INFO - Prompt: 
+אתה שף מקצועי המסביר בצורה מובנית וברורה.
+
+הכן לי מתכון ברמה בינונית המשתמש במוצרים הבאים:
+חלב, אבקת שוקו
+
+דרישות:
+- כתיבה מובנית מאוד: כותרת, מצרכים, שלבי הכנה, טיפים.
+- לא להשתמש בשפה ילדותית.
+- להסביר בצורה ברורה אך תמציתית.
+- לציין כמויות מדויקות ככל האפשר.
+- לציין זמן הכנה וזמן בישול.
+- להוסיף טיפים לשיפור התוצאה.
+- להקפיד שהמתכון יהיה כשר.
+- אין לערבב מוצרים חלביים ובשריים יחד.
+- אם קיימים גם חלביים וגם בשריים – לבחור קטגוריה אחת בלבד.
+
+הכתיבה צריכה להיות מקצועית אך נגישה.
+
+2026-02-19 20:15:41,887 - INFO - Response: כבוד! בתור שף, אשמח להציג בפניך מתכון קלאסי ועשיר המשלב את המרכיבים שציינת – חלב ואבקת שוקו (קקאו) – לכדי קינוח אלגנטי ומרשים. המתכון הוא ברמה בינונית, קל לביצוע אך עם דגש על טכניקה מדויקת שתבטיח תוצאה מושלמת.
+
+---
+
+### קרם שוקולד עשיר (Rich Chocolate Cream)
+
+מתכון זה יוצר קינוח קרמי וקטיפתי, בעל טעם שוקולדי עמוק, שניתן להגיש כקינוח אישי או כבסיס לקינוחים מורכבים יותר.
+
+**זמני הכנה ובישול:**
+*   **זמן הכנה אקטיבי:** 10 דקות
+*   **זמן בישול:** 15-20 דקות
+*   **זמן קירור (מינימלי):** שעתיים
+
+**כמות:** מנה ל-4-6 סועדים (בהתאם לגודל המנות).
+
+---
+
+#### מצרכים נדרשים:
+
+*   **חלב:** 500 מ"ל חלב 3% שומן (2 כוסות מדידה)
+*   **אבקת קקאו:** 50 גרם אבקת קקאו איכותית, לא ממותקת (כ-1/2 כוס)
+*   **סוכר:** 80 גרם סוכר לבן (כ-1/3 כוס + כף גדושה) – ניתן לכוונן לפי העדפה אישית ומרירות הקקאו
+*   **קורנפלור:** 30 גרם קורנפלור (3 כפות שטוחות)
+*   **מלח:** קורט נדיב של מלח ים דק (מדגיש את טעמי השוקולד)
+*   **תמצית וניל:** 1 כפית תמצית וניל איכותית
+*   **חמאה (אופציונלי אך מומלץ):** 20 גרם חמאה קרה, חתוכה לקוביות קטנות
+
+**ציוד נדרש:**
+*   סיר בינוני בעל תחתית עבה
+*   מטרפה ידנית
+*   קערת הגשה גדולה או 4-6 כוסות/קעריות אישיות
+*   ניילון נצמד
+
+---
+
+#### שלבי הכנה:
+
+1.  **הכנת תערובת יבשים:**
+    *   בסיר בינוני, יש לערבב היטב את אבקת הקקאו, הסוכר, הקורנפלור וקורט המלח. השתמשו במטרפה ידנית כדי לוודא שאין גושים. ערבוב יבש זה חשוב למניעת גושים בהמשך.
+
+2.  **שילוב החלב:**
+    *   בהדרגה, תוך כדי טריפה מתמדת, הוסיפו את החלב לתערובת היבשים שבסיר. המשיכו לטרוף עד לקבלת תערובת חלקה ואחידה, ללא גושים כלל.
+    *   **טיפ מקצועי:** התחילו עם מעט חלב ליצירת משחה סמיכה, ורק אז הוסיפו את יתרת החלב בהדרגה.
+
+3.  **בישול והסמכה:**
+    *   הניחו את הסיר על להבה בינונית. בשלו את התערובת תוך כדי טריפה בלתי פוסקת.
+    *   המשיכו בבישול ובטריפה עד שהתערובת מסמיכה משמעותית ומגיעה לרתיחה עדינה (בועות גדולות צצות על פני השטח). הקפידו לגרד את תחתית הסיר והדפנות למניעת הידבקות.
+    *   לאחר שהקרם הסמיך, המשיכו לבשל ולטרוף עוד 2-3 דקות על אש נמוכה-בינונית. שלב זה חשוב כדי לוודא שהקורנפלור מתבשל במלואו ונמנע טעם עמילני.
+
+4.  **הוספת וניל וחמאה (אופציונלי):**
+    *   הסירו את הסיר מהאש.
+    *   הוסיפו את תמצית הווניל וקוביות החמאה הקרות (אם משתמשים). טרפו נמרצות עד שהחמאה נמסה לחלוטין והקרם הופך למבריק וחלק עוד יותר. החמאה מעניקה לקרם מרקם קטיפתי ועשיר יותר.
+
+5.  **קירור והגשה:**
+    *   שפכו את הקרם החם לקערת הגשה גדולה או לקעריות/כוסות אישיות.
+    *   כסו את פני השטח של הקרם בניילון נצמד, כשהניילון נוגע ישירות בקרם. פעולה זו מונעת היווצרות "קרום" על פני הקרם בזמן הקירור.
+    *   הניחו לקרם להתקרר לטמפרטורת החדר ולאחר מכן העבירו למקרר לשעתיים לפחות, או עד שהוא קר ויציב לחלוטין.
+    *   הגישו קר, ניתן לקשט בקצפת, פירות יער טריים, גרידת שוקולד או אבקת קקאו.
+
+---
+
+#### טיפים לשיפור התוצאה:
+
+*   **איכות המרכיבים:** השתמשו באבקת קקאו איכותית (רצוי הולנדית, כהה יותר) ובתמצית וניל אמיתית. ההבדל בטעם יהיה משמעותי.
+*   **מניעת גושים:** טרפו ללא הפסקה! זה המפתח לקרם חלק. אם למרות זאת נוצרו גושים קטנים, תוכלו לסנן את הקרם דרך מסננת דקה מיד לאחר הבישול.
+*   **הוספת עומק טעם:** ניתן להוסיף מעט קפה נמס (כ-1/2 כפית) לתערובת היבשים – הקפה מדגיש את טעמי השוקולד מבלי להיות דומיננטי.
+*   **ויסות מתיקות:** טעמו את הקרם בסוף הבישול (לפני הקירור) ותקנו את רמת המתיקות במידת הצורך. זכרו שהמתיקות מתמתנת מעט בקירור.
+*   **מרקם:** לקבלת קרם סמיך יותר, ניתן להוסיף 5-10 גרם נוספים של קורנפלור. לקרם פחות סמיך, הפחיתו את כמות הקורנפלור.
+*   **הגשה:** קרם שוקולד זה נפלא בפני עצמו, אך גם מהווה בסיס מצוין לשכבות בקינוחי כוסות, פאי, או עוגות שכבות.
+
+---
+
+**כשרות:** מתכון זה הוא **חלבי** ומתאים להגשה עם ארוחות חלביות בלבד. יש לוודא שכל המרכיבים (חלב, אבקת קקאו, סוכר, קורנפלור, תמצית וניל, חמאה) הם בעלי כשרות מתאימה.
+2026-02-19 20:44:55,962 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 20:45:13,899 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-19 20:45:13,901 - INFO - Request sent successfully to Gemini.
+2026-02-19 20:45:13,901 - INFO - Prompt: 
+אתה שף ידידותי ונעים שמסביר בצורה פשוטה וברורה.
+
+הכן לי מתכון ברמה קלה המשתמש רק במוצרים הבאים:
+חלב, קקאו
+
+דרישות:
+- המתכון חייב להיות ברור מאוד, מפורט צעד אחר צעד.
+-המתכון יהיה כתוב לא יותר מ-20 מילים בשורה
+-בתחילה יהיה כתוב באופן מפורש מה המתכון
+-לא לשלב במתכון מילים או נושאים שנטפרי עלול לחסום
+- להסביר כל שלב בפשטות, כאילו למתחילים.
+- להוסיף דוגמאות והסברים נוספים כשצריך.
+- להשתמש באימוג'ים כדי להפוך את ההסבר לקליל ומהנה \U0001f60a\U0001f373
+- לציין זמן הכנה וזמן בישול.
+- להפריד בצורה ברורה בין רשימת מצרכים לשלבי ההכנה.
+- להקפיד שהמתכון יהיה כשר.
+- אין לערבב מוצרים חלביים ובשריים יחד.
+- אם קיימים גם חלביים וגם בשריים ברשימה – לבחור סוג אחד בלבד.
+
+המתכון צריך להיות מעודד, ברור ומוסבר היטב.
+
+2026-02-19 20:45:13,901 - INFO - Response: שלום לכם, חברים יקרים שלי במטבח! \U0001f60a
+היום נכין יחד משהו סופר פשוט, כיפי וטעים בטירוף!
+קבלו מתכון שכל אחד יכול להצליח בו,
+גם אם זו הפעם הראשונה שלכם במטבח. \U0001f373
+בואו נתחיל!
+
+---
+
+### **מתכון: שוקו חם וטעים ב-2 מרכיבים בלבד!** \U0001f36b\U0001f95b
+
+---
+
+**מצרכים נדרשים:**
+
+*   **חלב:** כוס אחת (בערך 240 מ"ל). \U0001f95b
+    *   *איזה חלב שתרצו! רגיל, סויה, שיבולת שועל – הכל מתאים.*
+*   **אבקת קקאו:** כף אחת גדושה. \U0001f36b
+    *   *אם אתם אוהבים שוקו כהה וחזק, אפשר גם כף וחצי.*
+
+**זמנים:**
+*   **זמן הכנה:** 2 דקות \u23f3
+*   **זמן בישול:** 3-5 דקות \U0001f525
+
+---
+
+**שלבי הכנה פשוטים:**
+
+1.  **נכין את הכוס והסיר!** \U0001f373
+    קודם כל, ניקח כוס שאנחנו אוהבים.
+    לידה, נניח סיר קטן על השיש.
+    זה ישמור על סדר ויהיה לנו נוח.
+
+2.  **מזגים את החלב לסיר.** \U0001f95b
+    מדדו כוס אחת של חלב.
+    שפכו אותה בעדינות לסיר הקטן.
+    זה נראה מעט, אבל מספיק למנה אחת חמה ונהדרת.
+
+3.  **מדליקים אש עדינה.** \U0001f525
+    שימו את הסיר על הכיריים.
+    הדליקו את האש לדרגה בינונית.
+    אנחנו רוצים שהחלב יתחמם לאט.
+    לא למהר עם אש חזקה מדי!
+
+4.  **מוסיפים את הקקאו.** \U0001f36b
+    כשהחלב מתחיל להתחמם קצת,
+    הוסיפו כף גדושה של אבקת קקאו.
+    בדיוק כמו שצוין ברשימת המצרכים.
+    הריח כבר מתחיל להיות נהדר וכיפי!
+
+5.  **מערבבים בלי הפסקה!** \U0001f300
+    קחו כף עץ או מטרפה קטנה.
+    ערבבו את התערובת היטב ובסבלנות.
+    ודאו שכל אבקת הקקאו נמסה לגמרי.
+    אנחנו רוצים שוקו חלק, בלי גושים בכלל.
+    הערבוב גם ימנע מהחלב להידבק לתחתית הסיר.
+
+6.  **מחממים עד שחם מאוד.** \u2668\ufe0f
+    המשיכו לערבב ולחמם את השוקו.
+    שימו לב שהוא מתחיל לעלות אדים.
+    הוא צריך להיות חם ומהביל, אך לא רותח.
+    חשוב לא לתת לו לרתוח לגמרי, רק להתחמם טוב.
+    הקפידו לערבב גם בשלב הזה כדי שהחום יתפזר.
+
+7.  **מורידים מהאש בזהירות.** \u270b
+    ברגע שהשוקו חם בדיוק כמו שאתם אוהבים,
+    כבו את האש והורידו את הסיר מהכיריים.
+    תמיד תשתמשו במטלית או כפפה עבה.
+    הסיר לוהט מאוד! \U0001f321\ufe0f
+
+8.  **מוזגים לכוס ונהנים!** \u2615
+    בזהירות רבה, מזגו את השוקו החם והריחני.
+    לתוך הכוס שהכנתם בהתחלה.
+    תנו לו רגע להתקרר קצת כדי לא להיכוות.
+    קחו לגימה איטית ותיהנו מהקסם! \u2728
+
+---
+
+**בתיאבון!** \U0001f604
+מקווה שנהניתם מההכנה ומהטעם הנפלא של השוקו שלכם!
+אתם שפים מצוינים! \U0001f31f
+2026-02-20 01:33:03,120 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-20 01:33:18,058 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-20 01:33:18,062 - INFO - Request sent successfully to Gemini.
+2026-02-20 01:33:18,062 - INFO - Prompt: 
+אתה שף מקצועי המסביר בצורה מובנית וברורה.
+
+הכן לי מתכון ברמה בינונית המשתמש במוצרים הבאים:
+חלב אבקת שוקו
+
+דרישות:
+-המתכון יהיה כתוב לא יותר מ-20 מילים בשורה
+-בתחילה יהיה כתוב באופן מפורש מה המתכון
+-לא לשלב במתכון מילים או נושאים שנטפרי עלול לחסום
+- כתיבה מובנית מאוד: כותרת, מצרכים, שלבי הכנה, טיפים.
+- לא להשתמש בשפה ילדותית.
+- להסביר בצורה ברורה אך תמציתית.
+- לציין כמויות מדויקות ככל האפשר.
+- לציין זמן הכנה וזמן בישול.
+- להוסיף טיפים לשיפור התוצאה.
+- להקפיד שהמתכון יהיה כשר.
+- אין לערבב מוצרים חלביים ובשריים יחד.
+- אם קיימים גם חלביים וגם בשריים – לבחור קטגוריה אחת בלבד.
+
+הכתיבה צריכה להיות מקצועית אך נגישה.
+
+2026-02-20 01:33:18,062 - INFO - Response: שלום רב, שמי השף [שם השף, אם היה צריך, אך לא צוין] ואני אדריך אתכם כעת להכנת קינוח מודרני ועשיר.
+
+**קרם שוקולד חלב אבקת עשיר (פודינג שוקולד קר)**
+
+זהו מתכון בינוני בדרגת קושי, המשלב מרקם קטיפתי וטעם שוקולדי עמוק.
+
+**זמני הכנה:**
+*   **זמן הכנה פעיל:** 15 דקות
+*   **זמן בישול:** 7-10 דקות
+*   **זמן צינון:** מינימום 3 שעות
+
+---
+
+**מצרכים:**
+
+*   500 מ"ל חלב מלא (3% שומן ומעלה)
+*   70 גרם אבקת שוקו איכותית (מומלץ לשתייה)
+*   50 גרם סוכר לבן (ניתן להתאים למתיקות רצויה)
+*   30 גרם קורנפלור (עמילן תירס)
+*   5 מ"ל תמצית וניל טהורה (כ-1 כפית)
+*   20 גרם חמאה קרה (לא מלוחה), חתוכה לקוביות קטנות
+
+---
+
+**שלבי הכנה:**
+
+1.  **הכנת בסיס יבש:**
+    *   בקערה נפרדת, שלבו יחד:
+    *   את אבקת השוקו, הסוכר והקורנפלור.
+    *   ערבבו היטב במטרפה ידנית עד איחוד.
+
+2.  **יצירת משחה:**
+    *   הוסיפו כ-50 מ"ל מהחלב הקר לתערובת היבשה.
+    *   ערבבו במטרפה במהירות ליצירת משחה חלקה לגמרי.
+    *   הקפידו שלא יהיו כל גושים.
+
+3.  **חימום החלב:**
+    *   את יתרת החלב (450 מ"ל) שפכו לסיר בינוני וכבד.
+    *   חממו את החלב על להבה בינונית-גבוהה.
+    *   הביאו לסף רתיחה, אך לא לרתיחה מלאה.
+
+4.  **שילוב ובישול:**
+    *   הנמיכו את הלהבה לבינונית-נמוכה.
+    *   שפכו את משחת השוקולד בזרם דק לסיר עם החלב החם.
+    *   טרפו ללא הפסקה במטרפה ידנית.
+    *   בשלו תוך כדי בחישה מתמדת.
+    *   הקרם יסמיך משמעותית תוך 5-7 דקות.
+
+5.  **סיום הבישול:**
+    *   כשהקרם סמיך מספיק כדי לצפות גב של כף:
+    *   הסירו מיד מהאש.
+    *   הוסיפו את תמצית הווניל וקוביות החמאה הקרה.
+    *   ערבבו נמרצות במטרפה עד שהחמאה נמסה לחלוטין.
+    *   הקרם יהפוך למבריק וקטיפתי.
+
+6.  **מזיגה וצינון:**
+    *   מזגו את הקרם לכלי הגשה אישיים (כוסות או קעריות).
+    *   כסו כל כלי בניילון נצמד ישירות על פני הקרם.
+    *   פעולה זו מונעת היווצרות קרום יבש.
+    *   צננו במקרר למשך 3 שעות לפחות.
+    *   מומלץ לקרר לילה שלם לקבלת המרקם המיטבי.
+
+---
+
+**טיפים לשיפור התוצאה:**
+
+*   **מניעת גושים:** השלב של יצירת משחה חלקה חיוני ביותר.
+    *   הקפידו לטרוף היטב עד להיעלמות כל הגושים.
+*   **איכות השוקו:** השתמשו באבקת שוקו איכותית שאתם אוהבים.
+    *   היא תשפיע ישירות על טעם הקרם הסופי.
+*   **בחישה מתמדת:** אל תפסיקו לבחוש במהלך הבישול.
+    *   זה ימנע הידבקות לתחתית ויווצר קרם אחיד.
+*   **הוספת חמאה:** החמאה בסיום מעניקה ברק, מרקם עשיר וחלקות.
+    *   אל תוותרו עליה אם אתם מעוניינים בקינוח יוקרתי.
+*   **הגשה:** הגישו קר עם תוספות לבחירתכם.
+    *   ניתן לקשט בפירות יער טריים, קקאו מנופה, או קצפת.
+*   **אחסון:** שמרו במקרר, מכוסה היטב, עד שלושה ימים.
