@@ -38,3 +38,259 @@
 2026-02-19 01:22:53,084 - INFO - AFC is enabled with max remote calls: 10.
 2026-02-19 01:22:53,967 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
 2026-02-19 01:22:53,968 - ERROR - Error while sending request: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 4.567166226s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '4s'}]}}
+2026-02-19 08:26:11,474 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 08:26:12,732 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-19 08:26:12,732 - ERROR - Error while sending request: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 47.306181823s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}
+2026-02-19 16:37:36,512 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 16:37:37,884 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 403 Forbidden"
+2026-02-19 16:37:37,885 - ERROR - Error while sending request: 403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your API key was reported as leaked. Please use another API key.', 'status': 'PERMISSION_DENIED'}}
+2026-02-19 17:14:58,505 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 17:14:59,129 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-19 17:14:59,131 - ERROR - Error while sending request: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 1.039850603s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}
+2026-02-19 17:36:59,080 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 17:37:00,179 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-19 17:37:00,180 - ERROR - Error while sending request: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 181.09392ms.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}
+2026-02-19 18:31:42,788 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 18:31:43,789 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-19 18:31:43,791 - ERROR - Error while sending request: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 16.65439717s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '16s'}]}}
+2026-02-19 18:32:41,359 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 18:32:41,952 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-19 18:32:41,954 - ERROR - Error while sending request: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 18.322229344s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '18s'}]}}
+2026-02-19 18:36:38,950 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 18:36:39,623 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-19 18:36:39,624 - ERROR - Error while sending request: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 20.59635185s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}
+2026-02-19 18:45:08,442 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 18:45:09,274 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-19 18:45:09,275 - ERROR - Error while sending request: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 50.973874819s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '50s'}]}}
+2026-02-19 18:51:33,867 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 18:51:34,608 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-19 18:51:34,609 - ERROR - Error while sending request: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 25.579690949s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}
+2026-02-19 18:52:46,170 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 18:52:46,753 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-19 18:52:46,755 - ERROR - Error while sending request: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 13.470209998s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}
+2026-02-19 19:06:48,694 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 19:06:50,713 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-19 19:06:50,714 - ERROR - Error while sending request: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 9.895512975s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '9s'}]}}
+2026-02-19 19:56:42,232 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 19:56:42,940 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-19 19:56:42,941 - ERROR - Error while sending request: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 17.271352868s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}
+2026-02-19 20:02:01,776 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 20:02:18,074 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-19 20:02:18,083 - INFO - Request sent successfully to Gemini.
+2026-02-19 20:02:18,083 - INFO - Prompt: 
+אתה שף ידידותי ונעים שמסביר בצורה פשוטה וברורה.
+
+הכן לי מתכון ברמה קלה המשתמש רק במוצרים הבאים:
+חלב, גבינה
+
+דרישות:
+- המתכון חייב להיות ברור מאוד, מפורט צעד אחר צעד.
+- להסביר כל שלב בפשטות, כאילו למתחילים.
+- להוסיף דוגמאות והסברים נוספים כשצריך.
+- להשתמש באימוג'ים כדי להפוך את ההסבר לקליל ומהנה \U0001f60a\U0001f373
+- לציין זמן הכנה וזמן בישול.
+- להפריד בצורה ברורה בין רשימת מצרכים לשלבי ההכנה.
+- להקפיד שהמתכון יהיה כשר.
+- אין לערבב מוצרים חלביים ובשריים יחד.
+- אם קיימים גם חלביים וגם בשריים ברשימה – לבחור סוג אחד בלבד.
+
+המתכון צריך להיות מעודד, ברור ומוסבר היטב.
+
+2026-02-19 20:02:18,083 - INFO - Response: שלום לכם, חובבי הבישול! \U0001f9d1\u200d\U0001f373 איזה כיף שבאתם לבשל איתי היום!
+אני השף שלכם, ואני פה כדי להראות לכם שבישול זה כיף, פשוט וטעים! \U0001f60a
+
+היום אנחנו הולכים להכין מתכון קסום וקל במיוחד, שמשתמש רק בשני חברים נפלאים: חלב וגבינה! \U0001f95b\U0001f9c0
+תכינו את הכפית, כי אנחנו עומדים להכין משהו חם, מנחם וממש-ממש טעים! \u2728
+
+המתכון של היום הוא: **מטבל גבינה חם וכיפי במיוחד!** \U0001f9c0\U0001f95b
+
+זהו מטבל קטיפתי ועשיר, מושלם לטבילה, או אפילו סתם לזלול בכפית (ששש... אל תגלו לאף אחד!).
+
+---
+
+**זמן הכנה: \u23f1\ufe0f** 5 דקות
+**זמן בישול: \U0001f373** 5-7 דקות
+**רמת קושי: \u2b50** קלה בטירוף! (מושלם למתחילים!)
+
+---
+
+### \U0001f4dd **רשימת מצרכים (והפעם, רק שניים!)**
+
+*   **1 כוס חלב** \U0001f95b (כל סוג חלב שיש לכם בבית יעבוד מצוין: רגיל, דל שומן, או אפילו חלב צמחי אם אתם מעדיפים. חלב מלא יעניק לכם מטבל עשיר וקרמי יותר! \U0001f924)
+*   **1 כוס גבינה צהובה מגוררת** \U0001f9c0 (אני ממליץ על גבינות שנמסות טוב כמו צ'דר, מוצרלה, גאודה, או אפילו גבינה צהובה רגילה פרוסה שגררתם. אם יש לכם גבינה כבר מגוררת, זה אפילו יותר קל! \U0001f609)
+
+---
+
+### \U0001f469\u200d\U0001f373 **שלבי ההכנה – צעד אחר צעד (בלי פאניקה, זה ממש קל!)**
+
+**שלב 1: ההכנה המקדימה שלנו! \U0001f9c0\u2728**
+*   קודם כל, בואו נדאג שהגבינה שלנו מוכנה. אם קניתם גבינה צהובה בפרוסות, זה הזמן לגרר אותה. קחו פומפייה (זה הכלי עם החורים הקטנים שמשמש לגרור), וגררו את הגבינה בזהירות לתוך קערה. **טיפ של שף: גבינה מגוררת נמסה מהר יותר ואחיד יותר!** אם קניתם כבר גבינה מגוררת – מעולה! אתם חוסכים לעצמכם עבודה.
+*   מדדו כוס אחת של חלב. \U0001f95b
+
+**שלב 2: מחממים את החלב שלנו \U0001f95b\U0001f525**
+*   קחו סיר קטן (לא צריך סיר גדול, רק כזה שיכיל את החלב והגבינה בנוחות).
+*   שפכו את כוס החלב לסיר.
+*   הניחו את הסיר על הכיריים והדליקו את האש לחום בינוני-נמוך. **חשוב מאוד: אנחנו לא רוצים שהחלב ירתח!** \u26d4\ufe0f פשוט חממו אותו בעדינות. איך תדעו? כשתתחילו לראות בועיות קטנות-קטנות מתחילות להופיע בשולי הסיר, והחלב מתחיל לאדות קלות – זה הזמן הנכון! החלב צריך להיות חם ונעים למגע, אבל לא רותח.
+
+**שלב 3: מוסיפים את הגבינה הקסומה! \U0001f9c0\U0001f60b**
+*   ברגע שהחלב חם מספיק (והוא עדיין לא רותח, זוכרים? \U0001f609), הורידו את האש למינימום או כבו אותה לגמרי אם אתם מרגישים שהסיר חם מאוד.
+*   הוסיפו את כל כוס הגבינה המגוררת אל תוך החלב החם שבסיר.
+*   וואו! הקסם מתחיל! \u2728
+
+**שלב 4: מערבבים לאט לאט, עד שזה מושלם \u2728**
+*   עכשיו קחו כף עץ או מטרפה קטנה והתחילו לערבב בעדינות את התערובת.
+*   מה אתם רואים? הגבינה מתחילה להימס ולהפוך למרקם חלק וקרמי! איזה יופי! \U0001f60d
+*   המשיכו לערבב בסבלנות, עד שכל הגבינה נמסה לחלוטין ואין גושים. אתם רוצים לקבל מטבל חלק, אחיד ובוהק.
+*   **טיפ של שף: אם המטבל סמיך מדי לטעמכם, תוכלו להוסיף עוד כף או שתיים של חלב ולערבב. אם הוא דליל מדי, תנו לו עוד דקה-שתיים על אש ממש נמוכה תוך כדי ערבוב, והוא יסמיך מעט.**
+
+**שלב 5: הטעימה הגדולה! \U0001f973**
+*   ברגע שהמטבל חלק, אחיד וריחני – הוא מוכן! \U0001f929
+*   העבירו אותו לכלי הגשה יפה.
+*   הגישו אותו חם!
+*   **הצעת הגשה (לא חובה, אבל מומלץ!):** המטבל הזה מושלם לטבילת קרקרים, מקלות ירקות (כמו גזר ומלפפון), או אפילו סתם לזלול בכפית... (שוב, זה הסוד שלנו! \U0001f92b).
+
+---
+
+**וזהו! יש לכם מטבל גבינה חם, טעים, וכשר, שהכנתם בעצמכם עם שני מצרכים בלבד!**
+כל הכבוד לכם, שפים לעתיד! \U0001f31f אני בטוח שזה יצא לכם מדהים!
+תיהנו מכל ביס, ואל תשכחו לחייך – בישול זה כיף! \U0001f60a\U0001f37d\ufe0f
+2026-02-19 20:07:36,843 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 20:08:06,747 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-19 20:08:06,754 - INFO - Request sent successfully to Gemini.
+2026-02-19 20:08:06,754 - INFO - Prompt: 
+אתה שף מומחה הכותב לקהל בוגר ומנוסה.
+
+פתח מתכון מתוחכם ומעניין המבוסס על המוצרים הבאים:
+בצל, כוסברה, גזר, ביצה קשה, מיונז
+
+דרישות:
+- כתיבה בוגרת, מעניינת ומקצועית.
+- לשלב טכניקות בישול והסברים מעמיקים.
+- להסביר את ההיגיון מאחורי שילובי הטעמים.
+- לציין זמן הכנה וזמן בישול.
+- להציע שדרוגים או וריאציות אפשריות.
+- להציע רעיונות להגשה ואסתטיקה.
+- להקפיד שהמתכון יהיה כשר.
+- אין לערבב מוצרים חלביים ובשריים יחד.
+- אם קיימים גם חלביים וגם בשריים – לבחור סוג אחד בלבד.
+
+הטון צריך להיות רציני, עשיר ומכוון לאדם בוגר.
+
+2026-02-19 20:08:06,754 - INFO - Response: אהלן, שפים וחובבי קולינריה מנוסים.
+
+היום נצא למסע טרנספורמטיבי, בו ניקח חומרי גלם יומיומיים ונגלה את הפוטנציאל החבוי בהם, דרך עדשה של דיוק, עומק טעמים והבנה קולינרית. נפרק ונרכיב מחדש מרכיבים מוכרים, וניצור מהם חוויה גסטרונומית שתפתיע את בלוטות הטעם ותאתגר את התפיסה שלכם לגבי "פשטות".
+
+אנו ניצור "סלט חריימה מפורק" – וריאציה נועזת ומרתקת על ביצים קשות, בצל, גזר, כוסברה ומיונז, שתשאב השראה עמוקה ממטבחי צפון אפריקה והמזרח התיכון, ותציג סימפוניה של טעמים, טקסטורות וניחוחות. זהו מתכון המיועד למי שמחפש להבין את "למה" שמאחורי ה"איך", ולדייק כל פרט ליצירת שלמות.
+
+---
+
+## סלט "חריימה מפורק" – ביצים וירקות שורש מתובלים עם איולי פפריקה מעושנת וכוסברה
+
+**פילוסופיית המתכון:**
+המטרה כאן אינה רק לשלב את המרכיבים יחד, אלא להעניק לכל אחד מהם טיפול מיוחד שימקסם את טעמו ומרקמו, ורק אז לאחד אותם לכדי יצירה הרמונית. הגזר עובר צלייה יבשה עם תבלינים המאפיינים חריימה, הבצל מקבל טיפול כפול של מרינדה מהירה ופריכות, הביצים נשמרות בטמפרטורה ובמרקם אידיאליים, והמיונז הופך לאיולי עשיר ומתובל המשמש כעוגן ארומטי. התוצאה היא מנה מורכבת ועשירה, שבה כל ביס מגלה רובד חדש של עניין.
+
+**כשרות:** פרווה (נטול חלב ונטול בשר).
+
+**זמן הכנה פעיל:** 40 דקות
+**זמן בישול/קירור כולל:** שעה ו-20 דקות (כולל קירור ביצים וגזר)
+
+### רכיבים:
+
+**לביצים הקשות המושלמות:**
+*   6 ביצים גדולות וטריות מאוד
+*   קערת מי קרח
+
+**לגזרים המתובלים בצלייה יבשה:**
+*   3 גזרים בינוניים, קלופים
+*   1 כפית פפריקה מתוקה
+*   1/2 כפית פפריקה מעושנת (לא חובה, אך מומלץ לעומק)
+*   1/2 כפית כמון טחון
+*   קורט צ'ילי גרוס יבש (או קאיין, לפי העדפה)
+*   1/4 כפית מלח ים אטלנטי
+*   2 כפות שמן זית עדין
+
+**לבצל האדום הכבוש במהירות:**
+*   1 בצל אדום קטן, פרוס דק מאוד (רצוי במנדולינה)
+*   2 כפות חומץ יין אדום איכותי
+*   1/2 כפית סוכר
+*   קורט מלח
+
+**לאיולי פפריקה מעושנת וכוסברה (בסיס מיונז):**
+*   1 כוס מיונז איכותי (רצוי תוצרת בית למי שמעוניין להשקיע, ראו הערה)
+*   1 שן שום קטנה, כתושה דק מאוד
+*   1 כפית פפריקה מעושנת (Spanish Smoked Paprika)
+*   1/2 צרור כוסברה טרייה, קצוצה דק מאוד
+*   מיץ מחצי לימון טרי (או לפי הטעם)
+*   מלח ופלפל שחור גרוס טרי לפי הטעם
+
+**לתיבול סופי וקישוט:**
+*   1/2 צרור כוסברה טרייה נוספת, קצוצה גס
+*   מלח ים אטלנטי ופלפל שחור גרוס טרי
+*   שמן זית כתית מעולה, לזילוף (רשות)
+
+---
+
+### דרך ההכנה (בפירוט ודיוק):
+
+**שלב 1: הביצים הקשות – המרקם המושלם**
+1.  הכניסו את הביצים לסיר קטן וכיסו במים קרים. הביצים הטריות יותר יתקלפו טוב יותר.
+2.  הביאו לרתיחה עדינה על אש בינונית-גבוהה. ברגע שהמים רותחים, כסו את הסיר, הורידו מהאש והשאירו כך למשך 9 דקות בדיוק. זהו זמן אידיאלי לחלמון שיהיה עשיר וקרמי, ללא טבעת ירוקה.
+3.  מיד בסיום 9 הדקות, העבירו את הביצים באמצעות כף מחוררת לקערת מי קרח. המהירות היא קריטית: עצירת הבישול המיידית במי קרח לא רק מונעת בישול יתר, אלא גם גורמת לקליפה להתכווץ מעט ולהיפרד בקלות מהביצה. השאירו לצינון מוחלט (כ-10 דקות).
+4.  קילפו את הביצים בזהירות (אפשר בתוך המים כדי לסייע בקילוף חלק). חתכו לקוביות קטנות ואחידות (בערך 1 ס"מ). שמרו בצד.
+
+**שלב 2: הגזרים המתובלים – עומק טעם וניחוח**
+1.  חממו תנור ל-200 מעלות צלזיוס (טורבו).
+2.  חתכו את הגזרים לפרוסות עבות יחסית (כ-0.5 ס"מ), או לקוביות גדולות יותר (1-1.5 ס"מ). המטרה היא שיישארו בעלי נוכחות ומרקם לאחר הצלייה.
+3.  בקערה, ערבבו את פרוסות הגזר עם שמן הזית, פפריקה מתוקה, פפריקה מעושנת, כמון, צ'ילי ומלח. ודאו שכל פיסת גזר מצופה היטב.
+4.  פזרו את הגזרים בשכבה אחת על נייר אפייה בתבנית. צלו בתנור למשך 20-25 דקות, או עד שהגזרים רכים אך עדיין מעט נגיסים, וקצוותיהם מתחילים להשחים ולהתקרמל.
+    *   **ההיגיון:** הצלייה היבשה בחום גבוה ממקדת את הסוכרים הטבעיים שבגזר, מעצימה את טעמו ויוצרת מרקם "בשרי" ונהדר. התבלינים חודרים לעומק ומעניקים לו פרופיל טעמים מזרח תיכוני מובהק.
+5.  צננו את הגזרים לטמפרטורת החדר.
+
+**שלב 3: הבצל האדום הכבוש במהירות – פריכות וחמיצות מרעננת**
+1.  בקערה קטנה, ערבבו את פרוסות הבצל האדום הדקות עם חומץ היין האדום, הסוכר והמלח.
+2.  מעכו קלות את הבצל עם הידיים כדי שישחרר נוזלים ויספוג טוב יותר את המרינדה.
+3.  השאירו לעמוד למשך 10-15 דקות.
+    *   **ההיגיון:** תהליך כבישה מהיר זה מרכך את עוקצנותו של הבצל האדום, מעניק לו גוון ורוד יפהפה, ומחדיר בו חמיצות עדינה המאזנת את העושר שבשאר המנה. הבצל נשאר פריך אך נעים לביס.
+4.  סננו את הבצל מהנוזלים וזרקו את הנוזלים.
+
+**שלב 4: איולי פפריקה מעושנת וכוסברה – עוגן הטעם**
+1.  בקערה בינונית, ערבבו את המיונז עם השום הכתוש, פפריקה מעושנת, מחצית מהכוסברה הקצוצה, מיץ לימון, מלח ופלפל שחור.
+2.  טעמו ותקנו תיבול – ייתכן שתצטרכו עוד מעט לימון לחמיצות, או מלח/פלפל. האיולי צריך להיות בעל טעם דומיננטי, אך מאוזן.
+    *   **הערה למיונז ביתי:** אם אתם מכינים מיונז ביתי, השתמשו ב-1 חלמון ביצה, 1 כפית חרדל דיז'ון, 1 כף מיץ לימון או חומץ, 1/2 כוס שמן ניטרלי (קנולה/חמניות) ו-1/4 כוס שמן זית עדין. הוסיפו את השמן באיטיות רבה תוך כדי טריפה קבועה ליצירת אמולסיה יציבה. לאחר מכן, שלבו את התבלינים כמו במיונז קנוי. מיונז ביתי תמיד יעניק עומק רב יותר.
+
+**שלב 5: הרכבת הסלט והגשה**
+1.  בקערה גדולה ועדינה, העבירו בעדינות את קוביות הביצים הקשות, הגזרים המתובלים, והבצל האדום הכבוש.
+2.  הוסיפו את איולי הפפריקה המעושנת. ערבבו בעדינות בעזרת לקקן או כף גדולה, רק עד שכל המרכיבים מצופים באופן אחיד. הימנעו מערבוב יתר שעלול למעוך את הביצים.
+3.  טעמו שוב ותקנו תיבול סופי במידת הצורך – מעט מלח או פלפל נוספים יכולים להקפיץ את הטעמים.
+4.  העבירו את הסלט לכלי הגשה נאה. פזרו מעל את שארית הכוסברה הטרייה הקצוצה גס.
+5.  למראה יוקרתי ועשיר יותר, ניתן לזלף מעט שמן זית כתית מעולה מעל לפני ההגשה.
+
+---
+
+### הגיון מאחורי שילובי הטעמים:
+
+*   **מתוק-מלוח-חריף:** הגזר הצלוי מספק מתיקות טבעית עמוקה (קרמליזציה) ועושר "אדמתי" יחד עם פיקנטיות עדינה מהצ'ילי. האיולי מוסיף עשן ומליחות, והבצל הכבוש חמיצות חדה ומאזנת.
+*   **מרקמים מגוונים:** הביצה הרכה-קשה והקרמית, הגזר הצלוי הנגיס, הבצל הפריך-רך, והכוסברה הרעננה – יוצרים יחד משחק מרקמים מרתק בכל ביס.
+*   **עומק ארומטי:** הפפריקה המעושנת מעניקה ממד אדמתי ועשיר, הכמון מחבר את המזרח התיכון, הכוסברה מעניקה פרימה רעננה וחייאתיות, והלימון באיולי "מרים" את כל הטעמים ומבהיר אותם. זהו סלט עם סיפור טעמים שלם.
+
+### הצעות הגשה ואסתטיקה:
+
+*   **קרוסטיני ארומטיים:** הגישו את הסלט על קרוסטיני קלויים קלות, משוחים במעט שום ושמן זית.
+*   **בסיס חסה פריכה:** הגישו כמנה ראשונה יפהפייה בתוך עלי חסה פריכים (כמו חסה אייסברג או רומנה).
+*   **מנה בפני עצמה:** מצוין כתוספת עשירה לארוחת צהריים קלילה, לצד לחם טוב וזיתים.
+*   **עיצוב:** הקפידו על הגשה אסתטית – כף סלט במרכז צלחת, מעוטרת בעלי כוסברה טריים או כמה פתיתי צ'ילי אדום. אפשר לפזר מעט שומשום קלוי לשדרוג ויזואלי וטקסטורלי נוסף.
+
+### שדרוגים ווריאציות אפשריות:
+
+*   **עשבי תיבול נוספים:** נסו להוסיף מעט פטרוזיליה קצוצה דק, או נענע קצוצה, יחד עם הכוסברה, לממד רעננות נוסף.
+*   **חריפות מתפרצת:** עבור חובבי החריף, הוסיפו כף קטנה של אריסה לאיולי, או פרוסות דקות של פלפל צ'ילי אדום טרי.
+*   **לימון כבוש:** קצוץ דק, יוסיף מליחות מורכבת ועומק ים תיכוני מובהק. הוסיפו כפית קצוצה לסלט.
+*   **תוספת ירקות שורש:** ניתן לשלב בטטה קטנה קצוצה לקוביות וקלויות יחד עם הגזר, להעשרת המתיקות.
+*   **טקסטורות פריכות:** לקראת ההגשה, פזרו מעל מעט שקדים קלויים קלות או פירורי לחם קלויים ומתובלים בשמן זית ועשבי תיבול, לתוספת קראנצ'יות.
+
+---
+
+זהו אינו עוד סלט ביצים, אלא מחווה של כבוד לחומרי גלם פשוטים, המקבלים חיים חדשים בזכות טכניקות מדויקות ושילובים אמיצים. אני מזמין אתכם לצלול פנימה, להתנסות ולגלות את העושר הטמון בפשטות, כפי שרק שף מנוסה יודע להוציא אל הפועל. בתיאבון!
+2026-02-19 20:10:31,820 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-19 20:10:49,839 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 418 Blocked by NetFree"
+2026-02-19 20:10:49,840 - ERROR - Error while sending request: 418 None. {'blockByNetFree': True, 'blockUrl': 'https://netfree.link/block/#%7B%22block%22%3A%22badwords%22%2C%22sourceStatusCode%22%3A200%2C%22blockTechnicalInfo%22%3A%22Q1JZUFQyBrGQGVHBkzYZLVnEHzVLF9%2FjYElTMOwOfI6iO%2F7NzkiTLtVtXFUALB2ORbLi8r8V4ETS%2BGPbPaf5oAsD7xNcysZE0Rn42olE0TEVvIQ%2FJaYkiUoRZDXbN6tY9YzbRt5gN4Br8pR3ke6IrZa0Bce6axNOlT5Iq5JDwb8eGBLKfjfdkEKaGHsX5PvRJv3%2FiL6gvzgteByWl2DJekGviQLihTAdXxXsZmYaM26fgNzXXEH0X4gEyUhCsp84FYFLtURXaXx4kNeP2CIfmNszuNrgv1pB5bHw2kuE1Dvts41FdiciRiOgpSQq33WVGtdnNZoamtzwOXEo2111o3nPliPKqY8D7aZqfpctKHH4%2FtOczFucgh59jbkYJ0RZACLF6xDEaG%2B0wwANxlFuM73qS47TkBATc%2BKoV5Q9Cgh7goeIP5MuSIQDsWVX%2FIv7o3EnrK3mhCM03stcidGjrMx0UAFFcQgx%2BNzCpyE2uuiUGqYwKtjf%2Bm6i9fURfGBfvJ5MfArY%2FYXL8m3nvjrPwP%2FQYQ%2FM163kIzg8wsGR7Tr%2Bgj4LazuO0CqcK7%2BnxF%2Fw0a0qvEvakta9XoeOhTjthWcEv5LL%2F5HN5qKOrdiJxW2xnzvjLnHHWQ31PmdzmIKIX%2B1WSqnzmX3ReFlsVcM9ulQj7k5UrY70XXffTn8Cneb7RmkKMvxkQhRjbRu58p7yQuHsmchCpvcZK7HgZJtBkVmL0qKVYB57gV5MCjC4LQol9l6MBXu9HCfwIH%2FCnfa%2FAkgb%2FbaNd4jzmv546zKIP8BaeqsxmfU8ErS1uqpOm29QdibegXAq4n9aDrtVpvKtwW%2FQcnrdnV%2FDcohyjZtM9%2BTJ20nmuPmp0JnwRvAQ0noOdNVy%2BMVJzExtrGbUcucwM%2Bkw426f5%2Fkj9M2vMZxKPaeIqczytdM88ePBpw%2BVou%2Ft37npiOujRoM0dgb%2B5IN7KkMuT8m75bsuvOqeT9pOk9vdpTgyDAezxuBng3Dh9uPQqYURh8wVoN4s4S4UHnv%2FSI%2Fkp6EsviPfNKvw%2FJxJ5d8%2FOzHQMAxVc9KbuoLmR%2BB0wX9960eybDtRkKHJtvy3peD%2B47rzNwPNKFOP3v0QSwVqRlKzCrdNHTDnRr9yJvTy7ga3Zd0vqoDqhBCAaCZuAh07bg34Hq2RHCxCokZDcrRWtLh8QWunMhYAz%2FAmvzzBCUul3iL9cKjYbKn3aJYJdCP%2BVVeRfRqRMr2%2F6quUsvW1kKB%2BaotXX0oosTjuPrIOczv7zfkHu1KKj3n33pBCfOtVhAJFf1CZMjQDkQXVu95O2ekGGnW3i0%2BsU1nGVesUVgirN%2FN%2F67KISR6a0inlv1DXv9DseY7VkrFfKqFPs0wHuGsWOmkY0L6jPjE2Rt22tOqgco8WMQAZ%2FVlkGXGt4w0S14b18eQvRblJ8R2YcYgbj9Ult1C4MKP5BEScyeWMgnG6aM2ceA01pvjsW7kQI2rhZw04mtS9dL9anreC6bZp4vSZ%2FDJs0TSHN9%2Ba%2BvzFliDI2ceR8QwrKbYTV4x%2FP4qA%2Bf41lsVY6d4zGpjqUtgUoqRrB%2FGrkLtoOY6o7dbGRkHLUqDMhth52ShdUMV9Ha0cZPcR5NFCOqCkJRl70X%2B4%2BFSqjrJtrC%2BhORLuGKP%2BkzGVBFu%2FcV3icOn8CRnlfJj4boFh4ftLCpkoq8wTtUHKJTIZwy%2FWA08PWL96PiWTqt%2FElS5%2FqQhQMrihhrIN6AHnfMDzqVsCsKi4O0uIzZ9YRfIniZheTnJo4cuifpbfSYLb83zZKN3MJjGcQgRh9lyw3CBy7ZxzOsxm7DWRzEwlFDm%2BhsHdmgakjue0ACRuHqq%2FJge2CCdI1ZJ0BPg8LipcQq%2ByHZIneGFRs0a2UhtZynOiPs0%2BbV88EcgzcLqLhNYf8VqFRi4ytdNkhaJW0GL5pw7Kf7krs2xFNxMKNxylMBbEOrXZmm9OezVcYH0KEPTA3%2F9wjnye8%2BMAtmRK7p31PlR6RtCdCHj7wA0jYyDE2rCKx6B2mhlPsBUA1ZLmwXzvvBgZl%2F0k9oRn0N3vSHfClE%2Beii28blGyM1agCYTBJI1iQnI9D5dvcyYUHzmZudDCkUDT9PLG0y5xTSI2vMAKkeqMkmHHsVSbY9I0vO8fJuzwhrioIcbuOrEnm9oouipAPpM92qhdnvF2aZSLQ0TDzVRENhiJnf%2BUapS2yQehEeHwKmLi94KLGtKpa%2BV0eLwsVFEU80Flcr6Ewwd3NSe3NzV8VypsOiKnMIqPPnX25lmgYLA4m%2FjtjkxY366qlqtpXKoK47f2s4Rq3Lx2SJxjjl2G990aBwACSI2aerT6pj9UHniq5wzKU0xxf6hyYRWGbf6mqCsWaqlZd38H47Kx389w98DnpyiFiv26%2Ba%2Fdc7FieGCQ04GjYENxgvjc65ufK2SWe78x98XNRsxlzv76iwnFF1mL2HtaGuiu0I983uCbiUAL0DR9jUE8y5oaJw0kCSa0VZK%2FV3UGoG1WMcRoaLOkVvocKZvPrwyRcritE5vBMpAy8r8QNwDwQT6R3pxV%2FknVrTJjGpj%2BfkATv0Ay583llGO6Ntz4eI0UErMprtrxyxyEbkrSckNFhBnmKRAUFSnBDCgXYLzGYp87NSDlH5h46%2BOTIwQHnkf5tcH5xTwJ9Kcox86E%2FSdG7MQEZw77bNVKKmzZGZF5hS90frI8xIMdm2GYqSJmBnftgaOr2R6g7i8PB2M3EpH0bGCnGutiKCmuTrDpOE765QW1VwM7VDo6lCgxzupSyll6JMF5reXPRUrN1e8ZaV%2BKsbJiWNi%2FBFmiOPS5epWHda6jBsXPn4NpbiKLAcg69rNqsfSsguHKqQuOrUf3J55zBGcFcvGzdxeB%2BV54uf1QLxzNRd2u2m5yNrVzGu1B4z7ZCdn1ISEIuVjJqmYDXsP5H4QhFJTTJflCpqnLCBRup%2Br9zgeE8XyOFCCcAWc%2B%2FNmOU8Tvp4ZTnc9QCRWUvDZLvmBjBYeRxaqXPETZRvG88IQez8WPu0QFAsXe%2Fj7XI9SabLersG%2B97QXZY9bS1IO3XT7xFRgcPPqcWsVX5pOr12bAiu0Uyej2kcpzsT%2F5%2BYbEfLccrmP9usPyXfDWitngP6fGHKm8HAMmRrA1lWMTqEox6%2FfamredCDIOJnLF8I4CAKczT8%2FaxncJaylKzTFTSnqcw%2BP2TbXtQFkJ3OzeZ%2Bths%2B5qLADVbSRWAjqjdoKCH4vYX006tzYGL57xGFXnWe3EfLVxM1Cyk7vUFzV4TxPi%2FC8hCjtJuLPy307i1Q1xYAuwmD9ozHV4k49cjOpTNHoxHPzr%2FgUdR4KGDE1fu4j9u3ZKwQDm8C3vsYB31fgtUmie2RfiOlqEBPH%2Bbw3Zf3gBR3zfJq0z5Ax7psgNmrU0ciugw4GnxxsMPjjXIJ4oh%2BTp5EpYIzj%2Ft2bKwcib3to1bYrnL7TwYpW6E2YCcR%2FWkD2HgjAuxBZk7WHc6Iau4s%2BcqXi1WOga8GPKS3wt%2F%2BU%2FNx%2BPClgj7O4rk%2FkWYqlUp5BIxJL8uvoTkpUyss8IVqFwUlAauVAxrldeT1Qm1vI0d58YSIrSDjF%2F8%2FVZEr4vpafELnXZ4fSbie7aoSrZMz8XQg0D4Ocg4kSf9RVDCUgunIdtMtoG72%2Bqz5dCX7BNl63v4GGtmHTt082uhPZDG5zuFwnRKZO1fQ5EdaAvXhQOqwiBaT%2FbySPN7AYveTOPv8ugTvDY%2BSiapdp6mgJQv0IxFBuIHYmxAgACae3K0OMO8A8cwITTAgpcS%2BdNXPfvGMJlIA%2BlSKX52UP0qeynwFSm9%2FNXiJuSr4Xa2D5DJSU8aqlfOwwjsAn7qGLLYDRiHuilPYSVYnqJh7TugY%2FKO70tAwIdMmPQ79N6NfP6Q%2FDHVCXAQ3R%2BQbbCHn3kHuXJ3H1htv%2FwtKy1L5yJll7v6SlLsMBthZO3mwiQ%22%7D'}

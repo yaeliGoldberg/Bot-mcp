@@ -56,6 +56,8 @@ def check_budget():
 def gateway(prompt: str) -> str:
     global GEMINI_API_KEY
 
+    print("API KEY:", GEMINI_API_KEY)
+
     # 1️⃣ בדיקת קיום מפתח
     if not GEMINI_API_KEY:
         raise Exception("Missing GEMINI_API_KEY.")
@@ -72,7 +74,7 @@ def gateway(prompt: str) -> str:
 
         client = genai.Client(api_key=GEMINI_API_KEY)
         response = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             contents=prompt
         )
 
